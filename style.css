@@ -86,6 +86,10 @@ header div button {
   background: rgba(13, 19, 33, 0.02);
 }
 /* Global */
+.head {
+  width: 852px;
+  margin: 0 auto;
+}
 .head h3 {
   margin: 24px 0;
   color: rgb(13, 19, 33);
@@ -179,4 +183,16 @@ header div button {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* Inspiration */
+.v-content {
+  text-align: center;
+  padding: 0 100px;
+}
+.v-content iframe {
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 40px;
 }
