@@ -14,7 +14,6 @@ header div {
   width: 100%;
 }
 header div button {
-  cursor: pointer;
   font-weight: 600;
   background-color: transparent;
   border-radius: 8px;
@@ -306,6 +305,7 @@ header div button {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 /* Footer */
 footer {
