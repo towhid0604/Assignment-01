@@ -7,13 +7,13 @@ header {
   padding: 15px 0;
   display: flex;
 }
-header > div {
+header div {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
 }
-header > div > button {
+header div button {
   cursor: pointer;
   font-weight: 600;
   background-color: transparent;
@@ -30,17 +30,17 @@ header > div > button {
   background-size: cover;
   height: 650px;
 }
-#banner > .banner-content {
+#banner .banner-content {
   width: 998px;
   margin: 0 auto;
   text-align: center;
 }
-#banner > .banner-content > img {
+#banner .banner-content img {
   margin: 0 auto;
   width: 240px;
   height: 240px;
 }
-#banner > .banner-content > h2 {
+#banner .banner-content h2 {
   margin: 24px 0;
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono", monospace;
@@ -50,7 +50,7 @@ header > div > button {
   letter-spacing: 0%;
   text-align: center;
 }
-#banner > .banner-content > p {
+#banner .banner-content p {
   margin: 10px 0;
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono", monospace;
@@ -60,13 +60,119 @@ header > div > button {
   letter-spacing: 0%;
   text-align: center;
 }
-#banner > .banner-content > button {
+#banner .banner-content button {
   margin: 20px 0;
   background: rgb(13, 19, 33);
   padding: 15px 30px;
   border-radius: 8px;
   border: none;
   color: rgb(255, 255, 255);
+  font-family: "Azeret Mono", monospace;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Development */
+#Development {
+  padding: 80px 100px;
+  margin: 0 auto;
+}
+#Development .content {
+  margin: 0 auto;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+/* Global */
+.head h3 {
+  margin: 24px 0;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.head p {
+  margin: 24px 0;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+/* Global */
+
+#Development .content .card {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 48px;
+}
+#Development .content .card-02 {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+#Development .content .card .card-content {
+  width: 100%;
+}
+#Development .content .card .photo {
+  height: 217px;
+  width: 100%;
+  text-align: right;
+}
+#Development .content .card .photo02 {
+  height: 217px;
+  margin-right: 100px;
+  text-align: left;
+}
+#Development .card-content h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px 0;
+}
+#Development.card-content p {
+  margin: 10px 0;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#Development .card-content button {
+  background-color: transparent;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
   font-family: "Azeret Mono", monospace;
   font-size: 20px;
   font-weight: 600;
