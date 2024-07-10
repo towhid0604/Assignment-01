@@ -20,6 +20,9 @@ header div button {
   border: 0.2rem solid black;
   padding: 12px 25px;
 }
+button:hover {
+  cursor: pointer;
+}
 /* Banner Start */
 #banner {
   text-align: center;
@@ -134,6 +137,7 @@ header div button {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
 #Development .content .card .card-content {
   width: 100%;
 }
